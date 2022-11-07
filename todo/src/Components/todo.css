@@ -1,0 +1,20 @@
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 0 40px;
+    padding: 10px;
+    width: 100%;
+    transition: 0.5s;
+}
+.listItem .btnDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.checked{
+    background-color: black;
+}
+.checked p{
+    text-decoration-line: line-through;
+}

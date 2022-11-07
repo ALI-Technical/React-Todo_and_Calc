@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color1: #4343E1;
+  --color2: #5324e0;
+  --color3: #000000;
+  --color4: #68BAA5;
+}

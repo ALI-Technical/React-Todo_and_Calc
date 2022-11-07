@@ -1,0 +1,47 @@
+.mainBox{
+    /* border: 5px solid var(--color1); */
+    margin-top: 5em;
+    border-radius: 30px;
+    /* width: 30% !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color3);
+}
+.inputBox{
+    border: 2px solid #fff;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    width: 100%;
+}
+.inputBox h3{
+    color: #fff;
+    font-size: 30px;
+}
+.btnsBox{
+    padding: 10px;
+    margin: 15px 0;
+    width: 100%;
+}
+.btnsBox button{
+  padding: 20px;
+  font-size: 24px;
+  transition: 0.5s;
+  margin: 5px;
+  width: 30%;
+}
+.btnsBox button:active{
+  transform: scale(0.70);
+}
+.btnsBox .optBtns{
+  background-color: orange !important;
+}
+.btnsBox .digitBtn{
+  background-color: rgb(68, 65, 65) !important;
+  color: #fff !important;
+}
